@@ -1,0 +1,59 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #874F41;
+    background-color: #fbe9d0;
+}
+
+.common {
+    /* background-color: #cccccc; */
+    border: 1px solid white;
+    position: absolute; /* Tells browser to ignore ALL OTHER HTML elements around this element, and pretend they don't exist */
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: solid 5px #e64833;
+}
+
+.header {
+    /* Start 5px from top, left, right, and be 100 px from top to bottom */
+    top: 5px; 
+    left: 5px;
+    right: 5px;
+    /* Cannot set "bottom" attribute, because "height" takes care of that*/
+    height: 100px;
+    padding-top: 20px;
+    background-color: #90aead;
+    color: #244855;
+}
+
+.anchors {
+    top: 125px;
+    left: 5px;
+    right: 5px;
+    height: 50px;
+}
+
+.main_body {
+    top: 180px;
+    height: 1150px;
+    left: 5px;
+    right: 5px;
+}
+
+.tableau {
+    top: 1330px;
+    left: 5px;
+    right: 5px;
+    color: #874F41;
+}
+
+a {
+    color: #244855;
+    text-decoration: none;
+}
+a:hover {
+    font-weight: bolder;
+}
+a:visited {
+    color: #244855;
+}
